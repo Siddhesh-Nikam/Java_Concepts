@@ -1,4 +1,3 @@
-
 import java.lang.*;
 
 interface Circle
@@ -8,7 +7,7 @@ interface Circle
     float CalculateArea(float Radius);
 
     float CalculateCircumference(float Radius);
-    
+
 }
 
 class Area implements Circle
@@ -35,21 +34,10 @@ class Interface_1
         float fRet=0.0f;
 
         fRet=aobj.CalculateArea(10.5f);
-        System.out.println("Area is:" + fRet);
+        System.out.println("Calculated area is:" + fRet);
 
         fRet=aobj.CalculateCircumference(10.5f);
-        System.out.println("Circumference is:" + fRet);
+        System.out.println("Calculated circumference is:" + fRet);
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
